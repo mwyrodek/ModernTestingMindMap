@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+	<head>
+		<dateCreated>Tue Feb 12 2019 20:51:16 GMT+0100 (Central European Standard Time)</dateCreated>
+		<dateModified>Tue Feb 12 2019 20:51:16 GMT+0100 (Central European Standard Time)</dateModified>
+	</head>
+	<body>
+		<outline text="Modern Testing (MT)">
+			<outline text="AB Testing episodes to listen">
+				<outline text="81">
+					<outline text="Principle 1"></outline>
+					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-81-business-rulz/"></outline>
+				</outline>
+				<outline text="83">
+					<outline text="Principle 2"></outline>
+					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-83-accelerating-the-team/"></outline>
+				</outline>
+				<outline text="84">
+					<outline text="Principle 3"></outline>
+					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-84-stories-about-changes-and-nets/"></outline>
+				</outline>
+				<outline text="85">
+					<outline text="Principle 4"></outline>
+					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-85-the-community-principle/"></outline>
+				</outline>
+				<outline text="86">
+					<outline text="Principle 5"></outline>
+					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-86-not-the-customers-champion/"></outline>
+					<outline text="more principle 5">
+						<outline text="92"></outline>
+						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-92-customers-bugs-and-triangles/"></outline>
+					</outline>
+				</outline>
+				<outline text="87">
+					<outline text="Principle 6"></outline>
+					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-87-the-one-about-data/"></outline>
+				</outline>
+				<outline text="88">
+					<outline text="principle 7"></outline>
+					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-88-testing-isnt-dead-testers-otoh/"></outline>
+				</outline>
+				<outline text="basics">
+					<outline text="77">
+						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-77-the-conception-of-the-modern-testing-principles/"></outline>
+						<outline text="general: who is customer of the principles?"></outline>
+					</outline>
+					<outline text="78">
+						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-78-digging-in-on-modern-testing-principles/"></outline>
+					</outline>
+				</outline>
+				<outline text="Modern testing vs Context driven">
+					<outline text="94">
+						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-94-modern-testing-meets-context-driven-testing/"></outline>
+					</outline>
+				</outline>
+				<outline text="https://testastic.wordpress.com/2016/09/05/whats-so-special-about-specialists/"></outline>
+				<outline text="Transition guide">
+					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-93-the-quality-culture-transition-guide/"></outline>
+				</outline>
+				<outline text="slack"></outline>
+			</outline>
+			<outline text="principles">
+				<outline text="https://www.angryweasel.com/ABTesting/modern-testing-principles/"></outline>
+				<outline text="Why Do We have MT Principles?">
+					<outline text="WHAT GOT US HERE WON"T GET AS THERE">
+						<outline text="MT is looking how to get "THERE"">
+							<outline text="Moving test from cost center to cost benefit "></outline>
+							<outline text="Being Force multiplier"></outline>
+						</outline>
+					</outline>
+					<outline text="Software is much easier to produce"></outline>
+					<outline text="Thanks to advancements in Continuous Delivery, the customer has much more options to choose from">
+						<outline text="Companies are shipping faster"></outline>
+					</outline>
+					<outline text="It's much easier to compete with any company">
+						<outline text="For customers, the switching cost has gone way down"></outline>
+					</outline>
+				</outline>
+				<outline text="The principles are not just theory">
+					<outline text="They are based on Experience and observation"></outline>
+				</outline>
+				<outline text="Why modern testing">
+					<outline text="To make contrast with Traditional ">
+						<outline text="Traditional testing is not only a cost but also delay "></outline>
+					</outline>
+				</outline>
+				<outline text="Principle 1">
+					<outline text="Our priority is improving the business.">
+						<outline text="
+What it means to improve the business?">
+							<outline text="MTer needs to be seen as positive influence"></outline>
+							<outline text="Boiling Frogs">
+								<outline text="Adoption has to be gradual "></outline>
+							</outline>
+							<outline text="Delta from Idea to deployments is rapid "></outline>
+							<outline text="Get that mvp out with just enough quality to get feedback from customers "></outline>
+							<outline text="“You don’t get value from engineering effort until it is in customer hands”">
+								<outline text="Think not only how to get it out but what’s next "></outline>
+							</outline>
+							<outline text="No one tests your product better than your customer">
+								<outline text="what in case of software houses? They don't have product per se"></outline>
+							</outline>
+							<outline text="There are bugs and bugs that customer cares about "></outline>
+							<outline text="The GOAL">
+								<outline text="Short Term">
+									<outline text="Provide Value to customer Frequently"></outline>
+								</outline>
+								<outline text="Long Term">
+									<outline text="Making sure Principle are Followed"></outline>
+								</outline>
+							</outline>
+						</outline>
+					</outline>
+				</outline>
+				<outline text="Principle 2">
+					<outline text="We accelerate the team, and use models like Lean Thinking and the Theory of Constraints to help identify, prioritize and mitigate bottlenecks from the system.">
+						<outline text="WHAT">
+							<outline text="Our goal is to accelerate team ">
+								<outline text="that doesn't mean "we have to go fast"">
+									<outline text="Instead we are force multiplier"></outline>
+								</outline>
+							</outline>
+							<outline text="its about">
+								<outline text="adaptiblity"></outline>
+								<outline text="Reaction"></outline>
+								<outline text="???">
+									<outline text="Brent went on tagnent and never finished his thought."></outline>
+								</outline>
+							</outline>
+							<outline text="Lean Principles">
+								<outline text="Deliver fast by managing the flow "></outline>
+							</outline>
+							<outline text="Books to read">
+								<outline text="The Goal: A Business Graphic Novel"></outline>
+								<outline text="Phonix Project"></outline>
+								<outline text="Lean Thinking"></outline>
+							</outline>
+						</outline>
+						<outline text="WHY">
+							<outline text="Don’t forget MT context"></outline>
+							<outline text="By focusing the MT Practitioner on identifying their role as acceleration” ">
+								<outline text="this model were chosen because they are proven"></outline>
+							</outline>
+							<outline text="It’s important cause far to much of The TEST is reverse of this">
+								<outline text="they create the bottleneck instead of resolving them">
+									<outline text="Example: stabilization period just before release"></outline>
+									<outline text="It’s easier to "build quality In" instead of trying to test "quality in""></outline>
+									<outline text="Test Complete date ">
+										<outline text="No i don't mean the tool"></outline>
+										<outline text="“If you test after test complete you will find bugs and that will cause us to miss the deadline""></outline>
+									</outline>
+								</outline>
+							</outline>
+						</outline>
+						<outline text="HOW">
+							<outline text="This mantra is About completion and predictability not about value in order to accelerate you need mechanism to identify what value is and what the next bottleneck">
+								<outline text="Mt don’t want testing to be viewed as bottle neck "></outline>
+							</outline>
+							<outline text="Quality is problem solved to humans being"></outline>
+							<outline text="Fast feedback loop is critical in context of understanding what is quality "></outline>
+							<outline text="By Balancing fallacy of value with failure to launch"></outline>
+						</outline>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="traditional vs modern debate">
+				<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-67/"></outline>
+			</outline>
+			<outline text="Historical information">
+				<outline text="Episode 77" _note="https://www.angryweasel.com/ABTesting/ab-testing-episode-77-the-conception-of-the-modern-testing-principles/">
+					<outline text="General">
+						<outline text="Based on agile principles" _note="I have taken them from here:&#10;https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/">
+							<outline text="1.  Our highest priority is to satisfy the customer through early and continuous delivery of valuable software."></outline>
+							<outline text="2. Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage."></outline>
+							<outline text="3. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale."></outline>
+							<outline text="4. Business people and developers must work together daily throughout the project."></outline>
+							<outline text="5. Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done."></outline>
+							<outline text="6. The most efficient and effective method of conveying information to and within a development team is face-to-face conversation."></outline>
+							<outline text="7.  Working software is the primary measure of progress."></outline>
+							<outline text="8. Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely."></outline>
+							<outline text="9. Continuous attention to technical excellence and good design enhances agility."></outline>
+							<outline text="10. Simplicity--the art of maximizing the amount of work not done--is essential."></outline>
+							<outline text="11. The best architectures, requirements, and designs emerge from self-organizing teams."></outline>
+							<outline text="12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly."></outline>
+						</outline>
+						<outline text="Who is customer for MT Principles?"></outline>
+						<outline text="Modern Tester">
+							<outline text="Existed in this version"></outline>
+							<outline text="Tester as coach "></outline>
+							<outline text="He is not Champion of quality"></outline>
+							<outline text="Responsible for quality culture"></outline>
+						</outline>
+						<outline text="Principle importance">
+							<outline text="Alan think all are equaly important"></outline>
+							<outline text="Brent thinks principle 1 is most important"></outline>
+						</outline>
+					</outline>
+					<outline text="Principlaces first version">
+						<outline text="1. The customer is the only one suitable to judge and evaluate the quality of our software">
+							<outline text="it is combination of Testing Discipline , agile and Budisness as data"></outline>
+						</outline>
+						<outline text="2. We apply the theory of constraints to identify, prioritize and mitigate bottlenecks from the system (and accelerate the team).">
+							<outline text="Constant re-evaluate of bottle necks "></outline>
+							<outline text="Testing often is a bottle neck but rarly is a root cause of  one."></outline>
+						</outline>
+						<outline text="3. We are not the safety net for software correctness – we focus on improving the business, and not the code.">
+							<outline text="Testing is not responsible for code correctness">
+								<outline text="Software quality!=code correctness "></outline>
+							</outline>
+						</outline>
+						<outline text="4. We are responsible for the quality culture of our team, and are accountable for helping and coaching the team in this regard."></outline>
+						<outline text="5. We use data to deeply understand customer usage and customer pain."></outline>
+						<outline text="6. Embrace continuous improvement, and help the team adapt and optimize in order to solve customer pain">
+							<outline text="neither It doesn’t need to be now, nor it doesn’t have to be perfect- balance ">
+								<outline text="its about ballance"></outline>
+							</outline>
+						</outline>
+						<outline text="7. We strive to reduce or eliminate the need for a dedicated testing specialist on our teams by increasing testing abilities and knowhow across the team."></outline>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="How it aplies to polish market?"></outline>
+			<outline text="FAQ">
+				<outline text="Q: “These principles sound like Agile things. Why are they called out separately in MT principles ?“ ">
+					<outline text="A: Agile is more fundamental than MT and addressees generic issues. MT principles are more focused on addressing testing issues"></outline>
+				</outline>
+				<outline text="Q: Most of them sound more like managers' principles than testers">
+					<outline text="There is no MT specialist but MT activities are part of unified development, MT practitioner can take PM hat from time to time if needed">
+						<outline text="He is optimizer "></outline>
+						<outline text="Reducing  waste and increasing value"></outline>
+						<outline text="Follower of MT notices patterns"></outline>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="link to map">
+				<outline text="http://www.xmind.net/m/HHed"></outline>
+			</outline>
+			<outline text="PARKING LOT - Place for notes without home">
+				<outline text="Leaders ship is disappointing people at level they can absorb "></outline>
+				<outline text="in martial art black belt is begining up to that point you just learn what you need to start"></outline>
+				<outline text="Modern testing principles not modern testers principles "></outline>
+				<outline text="Specialists is bottleneck"></outline>
+				<outline text="...automation especially UI black hole of payroll "></outline>
+			</outline>
+		</outline>
+	</body>
+</opml>
