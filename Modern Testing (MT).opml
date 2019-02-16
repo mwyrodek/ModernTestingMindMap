@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="1.0">
 	<head>
-		<dateCreated>Tue Feb 12 2019 20:51:16 GMT+0100 (Central European Standard Time)</dateCreated>
-		<dateModified>Tue Feb 12 2019 20:51:16 GMT+0100 (Central European Standard Time)</dateModified>
+		<dateCreated>Sat Feb 16 2019 21:33:42 GMT+0100 (Central European Standard Time)</dateCreated>
+		<dateModified>Sat Feb 16 2019 21:33:42 GMT+0100 (Central European Standard Time)</dateModified>
 	</head>
 	<body>
 		<outline text="Modern Testing (MT)">
@@ -129,6 +129,7 @@ What it means to improve the business?">
 							</outline>
 							<outline text="Lean Principles">
 								<outline text="Deliver fast by managing the flow "></outline>
+								<outline text="source: https://www.lean.org/WhatsLean/Principles.cfm"></outline>
 							</outline>
 							<outline text="Books to read">
 								<outline text="The Goal: A Business Graphic Novel"></outline>
@@ -160,6 +161,228 @@ What it means to improve the business?">
 							<outline text="Fast feedback loop is critical in context of understanding what is quality "></outline>
 							<outline text="By Balancing fallacy of value with failure to launch"></outline>
 						</outline>
+					</outline>
+				</outline>
+				<outline text="Principle 3">
+					<outline text="We are a force for continuous improvement, helping the team adapt and optimize in order to succeed, rather than providing a safety net to catch failures.">
+						<outline text="WHAT">
+							<outline text="“We are going to favour continuously adapting and improving above safety net presentation model.”">
+								<outline text="Thou shall kill your safety net">
+									<outline text="Traditional testing is treated as safty net"></outline>
+								</outline>
+							</outline>
+							<outline text="It’s wrong that testers feel validated by the fact the developers don’t want to test.">
+								<outline text="If we are going to move quality upstream, we have to retrain developers without the safety net">
+									<outline text="“Too many people think the quality is limited to testing “"></outline>
+								</outline>
+							</outline>
+							<outline text="Code correctnes">
+								<outline text="The tester can coach code correctness, but devs own it. "></outline>
+								<outline text="Developers have to learn from their mistakes. ">
+									<outline text="Continuous improvement is about not being afraid of making mistakes but embracing them as a learning opportunity."></outline>
+								</outline>
+								<outline text="Isn’t unit testing a safety net too?"></outline>
+							</outline>
+							<outline text="Safty net is a problem">
+								<outline text="Example">
+									<outline text=" Brent test harness lead to developers stopped using design patterns and ended doing code reviews. Cause automation would catch mistakes. - it’s terrible cause sloppy architecture can’t scale and is hard to maintain."></outline>
+								</outline>
+								<outline text="To remove safety net, you need also ensure minimal risk of getting harm and consequences of damage cannot be severe"></outline>
+							</outline>
+							<outline text="Continuous improvement">
+								<outline text="getting better all the time">
+									<outline text="Every time, *not* every half year, *not* every two weeks ">
+										<outline text="ALL THE TIME"></outline>
+									</outline>
+								</outline>
+								<outline text="Actionable vs vanity "></outline>
+								<outline text="Kaizen">
+									<outline text="looking for improvement every time everywhere "></outline>
+									<outline text="reducing the waste."></outline>
+									<outline text="Efficiency vs productivity "></outline>
+								</outline>
+							</outline>
+						</outline>
+						<outline text="WHY">
+							<outline text="It’s a critical process change directly related to   Quality "></outline>
+							<outline text="Testers are well suited to drive continuous improvement ">
+								<outline text="Tester has to see the system as a whole because of this they can easily spot place for improvement "></outline>
+								<outline text="Testers are specialists in asking questions "></outline>
+							</outline>
+						</outline>
+						<outline text="HOW">
+							<outline text="By measuring ">
+								<outline text="Visibility "></outline>
+							</outline>
+							<outline text="Unified engineering "></outline>
+							<outline text="Lots of small changes "></outline>
+							<outline text="Frequent retrospective (only 1-3 action)">
+								<outline text="Testers are well suited for driving retros"></outline>
+								<outline text="Also starfish  model for long term  retros"></outline>
+							</outline>
+							<outline text="A small vertical slices of architecture ">
+								<outline text="MVP!"></outline>
+							</outline>
+							<outline text="Master branch owned by the business they can release it whenever they want"></outline>
+						</outline>
+					</outline>
+				</outline>
+				<outline text="Principle 4">
+					<outline text="We care deeply about the quality culture of our team, and we coach, lead, and nurture the team towards a more mature quality culture.">
+						<outline text="WHAT">
+							<outline text="Quality culture and leadership "></outline>
+							<outline text="Testers need to  stop being passive"></outline>
+							<outline text="Quality culture">
+								<outline text="Quality">
+									<outline text="is not Bugs"></outline>
+									<outline text="is not code correctnes"></outline>
+									<outline text="is user reaction to what you built ">
+										<outline text="What is a higher quality app with no bugs but with few users, or app with lots of bugs but 100k users?"></outline>
+									</outline>
+									<outline text="is about eliminating friction (enchanting positive, reducing negativities)"></outline>
+								</outline>
+								<outline text="Alan Defintion">
+									<outline text="The shared mindset that delivering high-quality software to the customer is our top priority and all our practices support this effort"></outline>
+								</outline>
+								<outline text="Bren Definiton">
+									<outline text="IT is how do we build healthy, actives, not intuition based, useful view of users empathy within the organisation, caring about problems that users have "></outline>
+								</outline>
+								<outline text="Getting people closer to understanding the problems that users are facing, how software developers are geared to solve it and how to stay current. ">
+									<outline text="Getting people closer to understanding the problems that users are facing, how software developers are geared to solve it and how to stay current. "></outline>
+									<outline text="“Hey, customer are you happier ?”"></outline>
+								</outline>
+								<outline text="What it mature Quality culture">
+									<outline text="It is maturity model use with caution ">
+										<outline text="its alan model - it doesn't has to work for you"></outline>
+									</outline>
+									<outline text="Testing breadth ">
+										<outline text="infancy example">
+											<outline text="functional testing"></outline>
+										</outline>
+										<outline text="adulthood example">
+											<outline text="contextual testing"></outline>
+										</outline>
+									</outline>
+									<outline text="Quality test ownership ship">
+										<outline text="infancy example">
+											<outline text="Tester are doing all the testing"></outline>
+										</outline>
+										<outline text="adulthood example">
+											<outline text="Testers are coaches"></outline>
+											<outline text="No testeres needed, cause team gets it"></outline>
+										</outline>
+									</outline>
+									<outline text="Bug life cycle ">
+										<outline text="infancy example">
+											<outline text="bug backlog"></outline>
+										</outline>
+										<outline text="adulthood example">
+											<outline text="zero bug policy"></outline>
+										</outline>
+									</outline>
+									<outline text="how do you use code corretnes tools"></outline>
+									<outline text="Data analysis ">
+										<outline text="infancy example">
+											<outline text="oblivous"></outline>
+										</outline>
+										<outline text="adulthood example">
+											<outline text="data centric"></outline>
+										</outline>
+									</outline>
+									<outline text="Development approach ">
+										<outline text="infancy example">
+											<outline text="ad-hoc"></outline>
+										</outline>
+										<outline text="adulthood example">
+											<outline text="super small pathes"></outline>
+										</outline>
+									</outline>
+									<outline text="Learn and improvement ">
+										<outline text="infancy example">
+											<outline text="no learning happens">
+												<outline text="retrospectives are for whining"></outline>
+											</outline>
+										</outline>
+										<outline text="adulthood example">
+											<outline text="every failure is oportunity to learn">
+												<outline text="and oportunity is taken"></outline>
+											</outline>
+										</outline>
+									</outline>
+									<outline text="Leadership support ">
+										<outline text="infancy example"></outline>
+										<outline text="adulthood example">
+											<outline text="good quality pratices are  praised suported and celebrated"></outline>
+										</outline>
+										<outline text="read book ">
+											<outline text="Book leadership on the line "></outline>
+										</outline>
+									</outline>
+								</outline>
+							</outline>
+							<outline text="ADKAR Model">
+								<outline text="source ">
+									<outline text="https://www.prosci.com/adkar"></outline>
+								</outline>
+								<outline text="Awareness"></outline>
+								<outline text="Desire"></outline>
+								<outline text="Knowledge"></outline>
+								<outline text="Abilty"></outline>
+								<outline text="Reinforcment"></outline>
+							</outline>
+						</outline>
+						<outline text="WHY">
+							<outline text="The reason is we want feedback from our customers more often">
+								<outline text="we want to understand and react to what they are doing,">
+									<outline text=" we want to reduce risk in the ability to do that"></outline>
+								</outline>
+							</outline>
+							<outline text="To work in the way we want to function, to keep, retain and engage more users we need the quality culture "></outline>
+							<outline text="to move testing">
+								<outline text="From Risk minimalisation">
+									<outline text="to reacting to knowledge gained. "></outline>
+								</outline>
+							</outline>
+						</outline>
+						<outline text="HOW">
+							<outline text="Unless the whole team has a common understanding of the problem trying to solve it is pointless "></outline>
+							<outline text="Small Batches "></outline>
+							<outline text="Knowledge sharing (software is knowledge works)"></outline>
+							<outline text="Try stuff -> fail -> learn ">
+								<outline text="Experiment "></outline>
+								<outline text="Don’t make sweeping changes at once "></outline>
+								<outline text="Small changes, and don’t give up">
+									<outline text="Don’t try to change all at once "></outline>
+								</outline>
+							</outline>
+							<outline text="Reaping the band-aid works only when people are ready."></outline>
+							<outline text="Brent example on slack TL:DR verion">
+								<outline text="my history: most time as QA, then as dev, now DS.  I went to dev as a manager. Half of my dev were old school we dont test and half were ex Testers.  3 things I did to start: 0 bug backlog allowed , trained everyone on TDD , and lastly, bugs will not be fixed by the code author.">
+									<outline text="After learning/rumbling period was over, the whole team mentioned they would not ever go back to old ways...."></outline>
+								</outline>
+							</outline>
+						</outline>
+					</outline>
+				</outline>
+				<outline text="Principle 5">
+					<outline text="We believe that the customer is the only one capable to judge and evaluate the quality of our product">
+						<outline text="WHAT"></outline>
+						<outline text="WHY"></outline>
+						<outline text="HOW"></outline>
+					</outline>
+				</outline>
+				<outline text="Principle 6">
+					<outline text="We use data extensively to deeply understand customer usage and then close the gaps between product hypotheses and business impact.">
+						<outline text="WHAT"></outline>
+						<outline text="WHY"></outline>
+						<outline text="HOW"></outline>
+					</outline>
+				</outline>
+				<outline text="Principle 7">
+					<outline text="We expand testing abilities and knowhow across the team; understanding that this may reduce (or eliminate) the need for a dedicated testing specialist. ">
+						<outline text="WHAT"></outline>
+						<outline text="WHY"></outline>
+						<outline text="HOW"></outline>
 					</outline>
 				</outline>
 			</outline>
@@ -229,6 +452,9 @@ What it means to improve the business?">
 						<outline text="He is optimizer "></outline>
 						<outline text="Reducing  waste and increasing value"></outline>
 						<outline text="Follower of MT notices patterns"></outline>
+						<outline text="unified development defintion">
+							<outline text="https://testastic.wordpress.com/2016/01/03/the-combined-engineering-software-model/"></outline>
+						</outline>
 					</outline>
 				</outline>
 			</outline>
