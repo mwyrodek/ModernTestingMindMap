@@ -151,6 +151,8 @@ What it means to improve the business?
 
 			- Isn’t unit testing a safety net too?
 
+				- Yes it is.  And it should be there.  TESTERS aren't though.
+
 		- Safty net is a problem
 
 			- Example
@@ -369,8 +371,65 @@ What it means to improve the business?
 - We believe that the customer is the only one capable to judge and evaluate the quality of our product
 
 	- WHAT
+
+		- Definition customer - it is a human who takes a dependency on what you are releasing, and that human can make decisions what quality is 
+		- It is not about preventing harm 
+
+			- How do we help business to go faster
+
 	- WHY
+
+		- Customers don’t want software; they want the problem solved.
+		- It is seductive to believe “hey I am doing it forever I know what I am doing 
+		- There is a risk in trust that QA belife in requirements doc and PMs , are solving a customer problem 
+
+			- which is not often true
+			- Features are developed cause we think they are cool, not because It solves problems. 
+			- Quite often asking teams
+
+				- Q: “What problem it solves? “
+
+					- lead to answer
+
+						- “They will use it”
+
+							- Q2:“What value does it bring? “ 
+
+								- “They will use it”
+
+		- Need vs want
+
+			- Usually, you need to decompose the want to Find the need
+			- B2B
+
+		- Example of building wrong thing 
+
+			- Microsoft Kin
+
+				- https://en.wikipedia.org/wiki/Microsoft_Kin
+
 	- HOW
+
+		- Ask your self
+
+			- Who is my customer ?
+
+				- What is the case when I am delivering software to business?
+
+					- Who is customer then? Buissness or its customer?
+
+						- Both
+						- You need to be able to help your customers help their customers.
+
+				- End users who benefit from software you are producing.
+				- Testers are not customers.  
+
+					- Unless you are selling software for testers.
+
+		- Requirements from the business should be treated as hypothesis 
+		-  For each feature request you can ask question:
+
+			- “Imagine you had that what would you do with it?”
 
 ### Principle 6
 
@@ -460,6 +519,8 @@ https://www.angryweasel.com/ABTesting/ab-testing-episode-77-the-conception-of-th
 
 ## How it aplies to polish market?
 
+### See principle #5 - B2B 
+
 ## FAQ
 
 ### Q: “These principles sound like Agile things. Why are they called out separately in MT principles ?“ 
@@ -476,10 +537,6 @@ https://www.angryweasel.com/ABTesting/ab-testing-episode-77-the-conception-of-th
 	- unified development defintion
 
 		- https://testastic.wordpress.com/2016/01/03/the-combined-engineering-software-model/
-
-## link to map
-
-### http://www.xmind.net/m/HHed
 
 ## AB Testing episodes to listen
 
