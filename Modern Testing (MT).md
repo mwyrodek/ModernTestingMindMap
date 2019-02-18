@@ -191,6 +191,9 @@ What it means to improve the business?
 			- Visibility 
 
 		- Unified engineering 
+
+			- Specialists is a bottleneck!
+
 		- Lots of small changes 
 		- Frequent retrospective (only 1-3 action)
 
@@ -365,6 +368,17 @@ What it means to improve the business?
 			- my history: most time as QA, then as dev, now DS.  I went to dev as a manager. Half of my dev were old school we dont test and half were ex Testers.  3 things I did to start: 0 bug backlog allowed , trained everyone on TDD , and lastly, bugs will not be fixed by the code author.
 
 				- After learning/rumbling period was over, the whole team mentioned they would not ever go back to old ways....
+				- bugs will NOT be fixed by the code author?
+
+					- is the social pressure...   teammates do not appreciate having to fix a bug in code *you* should have tested....  motivates correct behavior in long term.
+
+						- Even better is to assign bug fixing to the peeps who approved the checkin
+						- What about toxicty and hostily
+
+							- combine with retrospective 
+							- and a clear non-negotiable expectation that the team works as a team 
+
+					-  great way for knowledge sharing about code.
 
 ### Principle 5
 
@@ -402,6 +416,8 @@ What it means to improve the business?
 			- Usually, you need to decompose the want to Find the need
 			- B2B
 
+				- Even in B2B case delivering what customer want not what they need, may end with customer leaving and never returning
+
 		- Example of building wrong thing 
 
 			- Microsoft Kin
@@ -431,25 +447,87 @@ What it means to improve the business?
 
 			- “Imagine you had that what would you do with it?”
 
+		- Leaders ship is disappointing people at level they can absorb 
+
+			- ergo
+
+				- Small changes!
+
 ### Principle 6
 
 - We use data extensively to deeply understand customer usage and then close the gaps between product hypotheses and business impact.
 
 	- WHAT
+
+		- Validating hypotheses doesn’t mean pushing buggy software.
+		- Your reaction time is important. 
+		- we need to be able to know
+
+			- What metrics meter 
+			- What part of your product 
+
 	- WHY
+
+		- Data is critical to scale 
+		- As long as you have good telemetry, you can find and fix bugs 
+		- Relaying on telemetry and customer data doesn’t mean it is using the customer as testers 
+		- Customer don’t care about test cases run, nor about  a code coverage 
+
+			- They care if theirs problem was solved
+
 	- HOW
+
+		- Instrument the hell out of your software 
+		- Use automation as a load generator and let the telemetry be a test oracle.
+		- Data tells you where to focus.
+		- Check episode 82
+		- Once the product ship - look at the data and try to figure out which testing effort was wasted.
+
+			-  Which feature is barely used? 
+
+				- It will help you count What is the ROI of current testing 
+
+		- Who values your product?
 
 ### Principle 7
 
 - We expand testing abilities and knowhow across the team; understanding that this may reduce (or eliminate) the need for a dedicated testing specialist. 
 
 	- WHAT
+
+		- Modern Tester doesn’t test
+
+			- It is also transitory role
+
+		- If you follow all principles you may not need testing specialists 
+		- No testing isn’t dead
+
+			- but testers are on their way out 
+
 	- WHY
+
+		- Testing is not a unique skill for testers others can do it too
+		- Testing is an activity, not a job.
+
 	- HOW
 
-## traditional vs modern debate
+		- There is a risk that Dev manager may not be able to deal with the mixed team - he will need a boiling frog
+		- You need people that genuinely understand testing to help with the transition.
+		- At the beginning you need experts to teach others how to test.
 
-### https://www.angryweasel.com/ABTesting/ab-testing-episode-67/
+			- Aka Bootstrapping effort
+
+		- There is social pressure to conform
+
+			-  when you achieve quality culture
+
+				- it will be kept with minimal help, unless some one will actively try to change it
+
+		- If you are a manager start working with your people. and easing them into transition
+
+			-     Give them a new place for their career to go
+
+				- And that new place is a positive one.
 
 ## Historical information
 
@@ -540,45 +618,6 @@ https://www.angryweasel.com/ABTesting/ab-testing-episode-77-the-conception-of-th
 
 ## AB Testing episodes to listen
 
-### 81
-
-- Principle 1
-- https://www.angryweasel.com/ABTesting/ab-testing-episode-81-business-rulz/
-
-### 83
-
-- Principle 2
-- https://www.angryweasel.com/ABTesting/ab-testing-episode-83-accelerating-the-team/
-
-### 84
-
-- Principle 3
-- https://www.angryweasel.com/ABTesting/ab-testing-episode-84-stories-about-changes-and-nets/
-
-### 85
-
-- Principle 4
-- https://www.angryweasel.com/ABTesting/ab-testing-episode-85-the-community-principle/
-
-### 86
-
-- Principle 5
-- https://www.angryweasel.com/ABTesting/ab-testing-episode-86-not-the-customers-champion/
-- more principle 5
-
-	- 92
-	- https://www.angryweasel.com/ABTesting/ab-testing-episode-92-customers-bugs-and-triangles/
-
-### 87
-
-- Principle 6
-- https://www.angryweasel.com/ABTesting/ab-testing-episode-87-the-one-about-data/
-
-### 88
-
-- principle 7
-- https://www.angryweasel.com/ABTesting/ab-testing-episode-88-testing-isnt-dead-testers-otoh/
-
 ### basics
 
 - 77
@@ -589,6 +628,56 @@ https://www.angryweasel.com/ABTesting/ab-testing-episode-77-the-conception-of-th
 - 78
 
 	- https://www.angryweasel.com/ABTesting/ab-testing-episode-78-digging-in-on-modern-testing-principles/
+
+### Principle 1
+
+- 81
+
+	- https://www.angryweasel.com/ABTesting/ab-testing-episode-81-business-rulz/
+
+### Principle 2
+
+- 83
+
+	- https://www.angryweasel.com/ABTesting/ab-testing-episode-83-accelerating-the-team/
+
+### Principle 3
+
+- 84
+
+	- https://www.angryweasel.com/ABTesting/ab-testing-episode-84-stories-about-changes-and-nets/
+
+### Principle 4
+
+- 85
+
+	- https://www.angryweasel.com/ABTesting/ab-testing-episode-85-the-community-principle/
+
+### Principle 5
+
+- 86
+
+	- https://www.angryweasel.com/ABTesting/ab-testing-episode-86-not-the-customers-champion/
+
+- 92
+
+	- https://www.angryweasel.com/ABTesting/ab-testing-episode-92-customers-bugs-and-triangles/
+
+### Principle 6
+
+- 87
+
+	- https://www.angryweasel.com/ABTesting/ab-testing-episode-87-the-one-about-data/
+
+- 82
+
+	- https://www.angryweasel.com/ABTesting/ab-testing-episode-82-brent-talks-to-alan-about-data/
+
+### principle 7
+
+- 88
+
+	- https://www.angryweasel.com/ABTesting/ab-testing-episode-88-testing-isnt-dead-testers-otoh/
 
 ### Modern testing vs Context driven
 
@@ -604,9 +693,11 @@ https://www.angryweasel.com/ABTesting/ab-testing-episode-77-the-conception-of-th
 
 ### slack
 
-## PARKING LOT - Place for notes without home
+### traditional vs modern debate
 
-### Leaders ship is disappointing people at level they can absorb 
+- https://www.angryweasel.com/ABTesting/ab-testing-episode-67/
+
+## PARKING LOT - Place for notes without home
 
 ### in martial art black belt is begining up to that point you just learn what you need to start
 

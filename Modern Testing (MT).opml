@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="1.0">
 	<head>
-		<dateCreated>Sun Feb 17 2019 15:39:20 GMT+0100 (Central European Standard Time)</dateCreated>
-		<dateModified>Sun Feb 17 2019 15:39:20 GMT+0100 (Central European Standard Time)</dateModified>
+		<dateCreated>Mon Feb 18 2019 20:08:55 GMT+0100 (Central European Standard Time)</dateCreated>
+		<dateModified>Mon Feb 18 2019 20:08:55 GMT+0100 (Central European Standard Time)</dateModified>
 	</head>
 	<body>
 		<outline text="Modern Testing (MT)">
@@ -163,7 +163,9 @@ What it means to improve the business?">
 							<outline text="By measuring ">
 								<outline text="Visibility "></outline>
 							</outline>
-							<outline text="Unified engineering "></outline>
+							<outline text="Unified engineering ">
+								<outline text="Specialists is a bottleneck!"></outline>
+							</outline>
 							<outline text="Lots of small changes "></outline>
 							<outline text="Frequent retrospective (only 1-3 action)">
 								<outline text="Testers are well suited for driving retros"></outline>
@@ -308,6 +310,16 @@ What it means to improve the business?">
 							<outline text="Brent example on slack TL:DR verion">
 								<outline text="my history: most time as QA, then as dev, now DS.  I went to dev as a manager. Half of my dev were old school we dont test and half were ex Testers.  3 things I did to start: 0 bug backlog allowed , trained everyone on TDD , and lastly, bugs will not be fixed by the code author.">
 									<outline text="After learning/rumbling period was over, the whole team mentioned they would not ever go back to old ways...."></outline>
+									<outline text="bugs will NOT be fixed by the code author?">
+										<outline text="is the social pressure...   teammates do not appreciate having to fix a bug in code *you* should have tested....  motivates correct behavior in long term.">
+											<outline text="Even better is to assign bug fixing to the peeps who approved the checkin"></outline>
+											<outline text="What about toxicty and hostily">
+												<outline text="combine with retrospective "></outline>
+												<outline text="and a clear non-negotiable expectation that the team works as a team "></outline>
+											</outline>
+										</outline>
+										<outline text=" great way for knowledge sharing about code."></outline>
+									</outline>
 								</outline>
 							</outline>
 						</outline>
@@ -341,7 +353,9 @@ What it means to improve the business?">
 							</outline>
 							<outline text="Need vs want">
 								<outline text="Usually, you need to decompose the want to Find the need"></outline>
-								<outline text="B2B"></outline>
+								<outline text="B2B">
+									<outline text="Even in B2B case delivering what customer want not what they need, may end with customer leaving and never returning"></outline>
+								</outline>
 							</outline>
 							<outline text="Example of building wrong thing ">
 								<outline text="Microsoft Kin">
@@ -368,26 +382,80 @@ What it means to improve the business?">
 							<outline text=" For each feature request you can ask question:">
 								<outline text="“Imagine you had that what would you do with it?”"></outline>
 							</outline>
+							<outline text="Leaders ship is disappointing people at level they can absorb ">
+								<outline text="ergo">
+									<outline text="Small changes!"></outline>
+								</outline>
+							</outline>
 						</outline>
 					</outline>
 				</outline>
 				<outline text="Principle 6">
 					<outline text="We use data extensively to deeply understand customer usage and then close the gaps between product hypotheses and business impact.">
-						<outline text="WHAT"></outline>
-						<outline text="WHY"></outline>
-						<outline text="HOW"></outline>
+						<outline text="WHAT">
+							<outline text="Validating hypotheses doesn’t mean pushing buggy software."></outline>
+							<outline text="Your reaction time is important. "></outline>
+							<outline text="we need to be able to know">
+								<outline text="What metrics meter "></outline>
+								<outline text="What part of your product "></outline>
+							</outline>
+						</outline>
+						<outline text="WHY">
+							<outline text="Data is critical to scale "></outline>
+							<outline text="As long as you have good telemetry, you can find and fix bugs "></outline>
+							<outline text="Relaying on telemetry and customer data doesn’t mean it is using the customer as testers "></outline>
+							<outline text="Customer don’t care about test cases run, nor about  a code coverage ">
+								<outline text="They care if theirs problem was solved"></outline>
+							</outline>
+						</outline>
+						<outline text="HOW">
+							<outline text="Instrument the hell out of your software "></outline>
+							<outline text="Use automation as a load generator and let the telemetry be a test oracle."></outline>
+							<outline text="Data tells you where to focus."></outline>
+							<outline text="Check episode 82"></outline>
+							<outline text="Once the product ship - look at the data and try to figure out which testing effort was wasted.">
+								<outline text=" Which feature is barely used? ">
+									<outline text="It will help you count What is the ROI of current testing "></outline>
+								</outline>
+							</outline>
+							<outline text="Who values your product?"></outline>
+						</outline>
 					</outline>
 				</outline>
 				<outline text="Principle 7">
 					<outline text="We expand testing abilities and knowhow across the team; understanding that this may reduce (or eliminate) the need for a dedicated testing specialist. ">
-						<outline text="WHAT"></outline>
-						<outline text="WHY"></outline>
-						<outline text="HOW"></outline>
+						<outline text="WHAT">
+							<outline text="Modern Tester doesn’t test">
+								<outline text="It is also transitory role"></outline>
+							</outline>
+							<outline text="If you follow all principles you may not need testing specialists "></outline>
+							<outline text="No testing isn’t dead">
+								<outline text="but testers are on their way out "></outline>
+							</outline>
+						</outline>
+						<outline text="WHY">
+							<outline text="Testing is not a unique skill for testers others can do it too"></outline>
+							<outline text="Testing is an activity, not a job."></outline>
+						</outline>
+						<outline text="HOW">
+							<outline text="There is a risk that Dev manager may not be able to deal with the mixed team - he will need a boiling frog"></outline>
+							<outline text="You need people that genuinely understand testing to help with the transition."></outline>
+							<outline text="At the beginning you need experts to teach others how to test.">
+								<outline text="Aka Bootstrapping effort"></outline>
+							</outline>
+							<outline text="There is social pressure to conform">
+								<outline text=" when you achieve quality culture">
+									<outline text="it will be kept with minimal help, unless some one will actively try to change it"></outline>
+								</outline>
+							</outline>
+							<outline text="If you are a manager start working with your people. and easing them into transition">
+								<outline text="    Give them a new place for their career to go">
+									<outline text="And that new place is a positive one."></outline>
+								</outline>
+							</outline>
+						</outline>
 					</outline>
 				</outline>
-			</outline>
-			<outline text="traditional vs modern debate">
-				<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-67/"></outline>
 			</outline>
 			<outline text="Historical information">
 				<outline text="Episode 77" _note="https://www.angryweasel.com/ABTesting/ab-testing-episode-77-the-conception-of-the-modern-testing-principles/">
@@ -461,38 +529,6 @@ What it means to improve the business?">
 				</outline>
 			</outline>
 			<outline text="AB Testing episodes to listen">
-				<outline text="81">
-					<outline text="Principle 1"></outline>
-					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-81-business-rulz/"></outline>
-				</outline>
-				<outline text="83">
-					<outline text="Principle 2"></outline>
-					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-83-accelerating-the-team/"></outline>
-				</outline>
-				<outline text="84">
-					<outline text="Principle 3"></outline>
-					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-84-stories-about-changes-and-nets/"></outline>
-				</outline>
-				<outline text="85">
-					<outline text="Principle 4"></outline>
-					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-85-the-community-principle/"></outline>
-				</outline>
-				<outline text="86">
-					<outline text="Principle 5"></outline>
-					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-86-not-the-customers-champion/"></outline>
-					<outline text="more principle 5">
-						<outline text="92"></outline>
-						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-92-customers-bugs-and-triangles/"></outline>
-					</outline>
-				</outline>
-				<outline text="87">
-					<outline text="Principle 6"></outline>
-					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-87-the-one-about-data/"></outline>
-				</outline>
-				<outline text="88">
-					<outline text="principle 7"></outline>
-					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-88-testing-isnt-dead-testers-otoh/"></outline>
-				</outline>
 				<outline text="basics">
 					<outline text="77">
 						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-77-the-conception-of-the-modern-testing-principles/"></outline>
@@ -500,6 +536,47 @@ What it means to improve the business?">
 					</outline>
 					<outline text="78">
 						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-78-digging-in-on-modern-testing-principles/"></outline>
+					</outline>
+				</outline>
+				<outline text="Principle 1">
+					<outline text="81">
+						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-81-business-rulz/"></outline>
+					</outline>
+				</outline>
+				<outline text="Principle 2">
+					<outline text="83">
+						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-83-accelerating-the-team/"></outline>
+					</outline>
+				</outline>
+				<outline text="Principle 3">
+					<outline text="84">
+						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-84-stories-about-changes-and-nets/"></outline>
+					</outline>
+				</outline>
+				<outline text="Principle 4">
+					<outline text="85">
+						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-85-the-community-principle/"></outline>
+					</outline>
+				</outline>
+				<outline text="Principle 5">
+					<outline text="86">
+						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-86-not-the-customers-champion/"></outline>
+					</outline>
+					<outline text="92">
+						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-92-customers-bugs-and-triangles/"></outline>
+					</outline>
+				</outline>
+				<outline text="Principle 6">
+					<outline text="87">
+						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-87-the-one-about-data/"></outline>
+					</outline>
+					<outline text="82">
+						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-82-brent-talks-to-alan-about-data/"></outline>
+					</outline>
+				</outline>
+				<outline text="principle 7">
+					<outline text="88">
+						<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-88-testing-isnt-dead-testers-otoh/"></outline>
 					</outline>
 				</outline>
 				<outline text="Modern testing vs Context driven">
@@ -512,9 +589,11 @@ What it means to improve the business?">
 					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-93-the-quality-culture-transition-guide/"></outline>
 				</outline>
 				<outline text="slack"></outline>
+				<outline text="traditional vs modern debate">
+					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-67/"></outline>
+				</outline>
 			</outline>
 			<outline text="PARKING LOT - Place for notes without home">
-				<outline text="Leaders ship is disappointing people at level they can absorb "></outline>
 				<outline text="in martial art black belt is begining up to that point you just learn what you need to start"></outline>
 				<outline text="Modern testing principles not modern testers principles "></outline>
 				<outline text="Specialists is bottleneck"></outline>
