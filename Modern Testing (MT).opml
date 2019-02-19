@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="1.0">
 	<head>
-		<dateCreated>Mon Feb 18 2019 20:08:55 GMT+0100 (Central European Standard Time)</dateCreated>
-		<dateModified>Mon Feb 18 2019 20:08:55 GMT+0100 (Central European Standard Time)</dateModified>
+		<dateCreated>Tue Feb 19 2019 18:12:11 GMT+0100 (Central European Standard Time)</dateCreated>
+		<dateModified>Tue Feb 19 2019 18:12:11 GMT+0100 (Central European Standard Time)</dateModified>
 	</head>
 	<body>
 		<outline text="Modern Testing (MT)">
@@ -67,12 +67,10 @@ What it means to improve the business?">
 									<outline text="Instead we are force multiplier"></outline>
 								</outline>
 							</outline>
-							<outline text="its about">
+							<outline text="its about combining ">
 								<outline text="adaptiblity"></outline>
 								<outline text="Reaction"></outline>
-								<outline text="???">
-									<outline text="Brent went on tagnent and never finished his thought."></outline>
-								</outline>
+								<outline text="Quickness "></outline>
 							</outline>
 							<outline text="Lean Principles">
 								<outline text="Deliver fast by managing the flow "></outline>
@@ -592,6 +590,8 @@ What it means to improve the business?">
 				<outline text="traditional vs modern debate">
 					<outline text="https://www.angryweasel.com/ABTesting/ab-testing-episode-67/"></outline>
 				</outline>
+				<outline text="https://www.ministryoftesting.com/dojo/lessons/experiences-in-modern-testing-alan-page"></outline>
+				<outline text="https://ministryoftesting.com/dojo/lessons/ask-me-anything-alan-page-modern-testing"></outline>
 			</outline>
 			<outline text="PARKING LOT - Place for notes without home">
 				<outline text="in martial art black belt is begining up to that point you just learn what you need to start"></outline>

@@ -77,13 +77,11 @@ What it means to improve the business?
 
 				- Instead we are force multiplier
 
-		- its about
+		- its about combining 
 
 			- adaptiblity
 			- Reaction
-			- ???
-
-				- Brent went on tagnent and never finished his thought.
+			- Quickness 
 
 		- Lean Principles
 
@@ -696,6 +694,10 @@ https://www.angryweasel.com/ABTesting/ab-testing-episode-77-the-conception-of-th
 ### traditional vs modern debate
 
 - https://www.angryweasel.com/ABTesting/ab-testing-episode-67/
+
+### https://www.ministryoftesting.com/dojo/lessons/experiences-in-modern-testing-alan-page
+
+### https://ministryoftesting.com/dojo/lessons/ask-me-anything-alan-page-modern-testing
 
 ## PARKING LOT - Place for notes without home
 
